@@ -1,4 +1,3 @@
-// test/test.js
 const { expect } = require('chai');
 
 describe('Array', function() {
