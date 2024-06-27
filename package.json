@@ -2,6 +2,7 @@
   "name": "nodejs-web-app",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha test/**/*.js"
   },
@@ -16,4 +17,3 @@
     "mocha": "^10.5.1"
   }
 }
-
