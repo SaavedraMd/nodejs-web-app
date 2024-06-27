@@ -16,5 +16,5 @@
     "chai": "^5.1.1",
     "mocha": "^10.5.1"
   },
-  "type": "commonjs"  // Cambia a CommonJS si deseas usar require() en tus archivos
+  "type": "commonjs"  
 }
