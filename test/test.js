@@ -1,5 +1,4 @@
-// test/test.js
-import { expect } from 'chai';
+const { expect } = require('chai');
 
 describe('Array', function() {
   it('should start empty', function() {
