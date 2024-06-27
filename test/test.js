@@ -1,5 +1,4 @@
-// test/test.js
-import { expect } from 'chai';
+import { expect } from 'chai';  
 
 describe('Array', () => {
     it('should start empty', () => {
