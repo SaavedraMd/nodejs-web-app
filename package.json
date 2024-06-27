@@ -14,7 +14,8 @@
   },
   "devDependencies": {
     "chai": "^5.1.1",
-    "mocha": "^10.5.1"
+    "mocha": "^10.5.1",
+    "esm": "^3.2.25"
   },
-  "type": "commonjs"  
+  "type": "module"  
 }
