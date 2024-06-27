@@ -1,4 +1,4 @@
-const { expect } = require('chai');
+import { expect } from 'chai';
 
 describe('Array', function() {
   it('should start empty', function() {
@@ -7,4 +7,3 @@ describe('Array', function() {
     expect(arr).to.be.an('array').that.is.empty;
   });
 });
-
