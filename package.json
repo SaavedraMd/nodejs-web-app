@@ -16,5 +16,5 @@
     "chai": "^5.1.1",
     "mocha": "^10.5.1"
   },
-  "type": "module"  // Agrega esta línea para usar módulos ESM globalmente
+  "type": "module"
 }
