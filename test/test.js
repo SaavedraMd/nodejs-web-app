@@ -1,9 +1,10 @@
-import { expect } from 'chai';  
+// test/test.js
+const { expect } = require('chai');
 
-describe('Array', () => {
-    it('should start empty', () => {
-        const arr = [];
+describe('Array', function() {
+  it('should start empty', function() {
+    const arr = [];
 
-        expect(arr).to.be.an('array').that.is.empty;
-    });
+    expect(arr).to.be.an('array').that.is.empty;
+  });
 });
