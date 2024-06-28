@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --experimental-modules test/**/*.cjs"
+    "test": "mocha --experimental-modules test/test.cjs"
   },
   "keywords": [],
   "author": "",
