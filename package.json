@@ -1,19 +1,16 @@
 {
-  "name": "nodejs-web-app",
+  "name": "my_web_project",
   "version": "1.0.0",
-  "type": "module",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "mocha --experimental-modules test/test.mjs"
+    "start": "node app.js",
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "chai": "^5.1.1",
-    "mocha": "^10.5.1"
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
   }
 }
